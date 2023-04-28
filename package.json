@@ -1,6 +1,6 @@
 {
   "name": "@selfage/puppeteer_test_runner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Let each test file be executable on its own.",
   "repository": {
     "type": "git",

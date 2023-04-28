@@ -1,5 +1,14 @@
 import { exit, getArgv } from "@selfage/puppeteer_test_executor/helper";
-import { TestRunner } from "@selfage/test_runner";
+import {
+  Environment,
+  TestCase,
+  TestCaseResult,
+  TestRunner,
+  TestSet,
+  TestSetResult,
+} from "@selfage/test_runner";
+
+export { Environment, TestCase, TestCaseResult, TestSet, TestSetResult };
 
 export let TEST_RUNNER = (function () {
   if (getArgv()) {
