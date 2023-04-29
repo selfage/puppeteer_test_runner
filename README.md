@@ -23,6 +23,4 @@ TEST_RUNNER.run({
 });
 ```
 
-In order to run the test file, you need to first bundle the file as the main file. Then do `$ pexe your_test_file`. The CLI `pexe` is provided by [@selfage/puppeteer_test_executor](https://www.npmjs.com/package/@selfage/puppeteer_test_executor) which is installed as one of the dependencies.
-
-Your test file will also have access to helper functions, available by importing `@selfage/puppeteer_test_executor/helper`, which controls browser behaviors and interact with file systems.
+In order to run the test file, you need to first bundle the file as the main file, install `@selfage/puppeteer_test_executor`, and then do `$ pexe your_test_file`.

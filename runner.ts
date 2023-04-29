@@ -1,4 +1,4 @@
-import { exit, getArgv } from "@selfage/puppeteer_test_executor/helper";
+import { exit, getArgv } from "@selfage/puppeteer_test_executor_api";
 import {
   Environment,
   TestCase,
